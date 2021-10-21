@@ -195,3 +195,42 @@ h4 {
 .help-img {
   width: 500px;
 }
+
+@media(max-width: 600px) {
+  .header__name {
+    font-size: 24px;
+  }
+
+  .search__main {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .search__string {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search__input, .search__type {
+    width: 100%;
+    margin: 3px 0;
+  }
+
+  .footer__content {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .result__empty {
+    width: 100%;
+  }
+
+  .img1 {
+  max-width: 500px;
+  }
+
+  .help-img {
+    width: 200px;
+  }
+}
