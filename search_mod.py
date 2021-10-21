@@ -117,7 +117,7 @@ def search_1st_word(first_word) -> list:
             cur.execute(pos_1, (first_word[0], ))
             res = cur.fetchall()
 
-    if len(first_word) == 3 and '+pos' in first_word:
+    if len(first_word) == 3 and '+POS' in first_word:
 
         # print('Часть речи указана')
         # print(first_word[0])
@@ -170,7 +170,7 @@ def search_2nd_word(second_word, text_id, new_id) -> list:
                 )
             res = cur.fetchone()
 
-    if len(second_word) == 3 and '+pos' in second_word:
+    if len(second_word) == 3 and '+POS' in second_word:
 
         # print('Часть речи указана')
 
